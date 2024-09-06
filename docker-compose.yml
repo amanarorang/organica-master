@@ -33,6 +33,6 @@ services:
   frontend:
     build:
       context: ./client
-      dockerfile: Dockerfile
+      dockerfile: ./client/Dockerfile
     ports:
       - 3000:3000
