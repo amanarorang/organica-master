@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class OrganicaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrganicaApplication.class, args);
+		SpringApplication.run(OrganicaApplication.class, args); 
 	}
 
 
