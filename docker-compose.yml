@@ -18,7 +18,7 @@ services:
   backend:
     build:
       context: ./server
-      dockerfile: Dockerfile
+      dockerfile: ./server/Dockerfile
     environment:
       SPRING_DATASOURCE_URL: ecomdatabase.cbkeww6w0vg0.ap-southeast-2.rds.amazonaws.com
       SPRING_DATASOURCE_USERNAME: admin
