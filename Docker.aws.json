@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "025066284283.dkr.ecr.ap-southeast-2.amazonaws.com/application/test-repo",
+        "Update": "true"
+    },
+    "Ports": [
+        {
+            "ContainerPort": "8080"
+        }
+    ]
+}
